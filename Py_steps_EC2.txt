@@ -1,0 +1,45 @@
+ ssh -i pappu.pem
+    2  sudo apt-get update
+    3  sudo apt-get install python3-venv
+    4  mkdir helloworld
+    5  cd helloworld/
+    6  python3 -m vene venv
+    7  python3 -m venv venv
+    8  pip install Flask
+    9  sodo pip install Flask
+   10  source venv/bin/activate
+   11  pip inatall Flask
+   12  pip install Flask
+   13  sudo nano app.py
+   14  pip install gunicorn
+   15  gunicorn -b 0.0.0.0:8000 app:app
+   16  sudo nano /etc/systemd/system/helloworld.service
+   17  sudo systemctl daemon-reload
+   18  sudo systemctl start helloworld
+   19  sudo systemctl enable helloworld
+   20  sudo apt-get nginx
+   21  clear
+   22  sudo apt-get nginx
+   23  cd ..
+   24  sudo apt-get nginx
+   25  sudo systemctl start nginx
+   26  ls -la
+   27  helloworld/
+   28  pip install gunicorn
+   29  gunicorn -b 0.0.0.0:8000 app:app
+   30  sudo nano /etc/systemd/system/helloworld.service
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start helloworld
+   33  sudo systemctl enable helloworld
+   34  curl localhost:8000
+   35  sudo apt-get nginx
+   36  sudo apt-get nginx update
+   37  sudo nano /etc/nginx/sites-available/default
+   38  sudo apt-get install nginx -y
+   39  nginx -version
+   40  nginx -v
+   41  sudo systemctl start nginx
+   42  sudo systemctl enable nginx
+   43  sudo nano /etc/nginx/sites-available/default
+   44  sudo systemctl restart nginx
+   45  history
